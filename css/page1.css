@@ -1,0 +1,91 @@
+
+html{
+    --black:rgb(41, 39, 39);
+    --gray:gray;
+    --orangelight:rgb(253, 41, 25);
+    --white:#fff;
+    --darkorange:rgb(252, 22, 6);
+    --lightgray:rgba(230, 228, 228, 0.466);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--lightgray);
+    letter-spacing: 0.5;
+    font-size: 32px;
+}
+.main-conatiner{
+   height: 640px;
+   width: 360px;
+   margin: 3vh auto;
+   background-color: var(--white);
+   display: flex;
+   flex-direction: column;
+   
+}
+.fa {
+    color: #e47b19;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 100;
+    font-size: inherit;
+}
+.add-list-button {
+    color: #565656a1;
+    cursor: pointer;
+}
+
+.main-conatiner .heading-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    margin:0 20px 0px 10px;      
+}
+
+h1{
+    color: var(--gray);
+    font-size: 40px;
+    font-weight: 100;
+    word-spacing: 0.6;
+}
+
+
+.heading-container__bolder{
+    font-weight: 700;
+    color: var(--black);
+}
+
+.heading-container_plus{
+    
+    background-color: var(--orangelight);
+    margin-right:10px ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+.card-container{
+    height: 70px;
+    width: 90%;
+    border-top: 0.5px solid #ff7e05ab;
+    border-left: 0.5px solid #ff7e05ab;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px #00000029;
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 25px;
+    color: var(--gray);
+    font-weight: 300;
+    padding:0 20px;
+}
